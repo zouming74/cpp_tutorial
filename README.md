@@ -36,6 +36,10 @@ git clone git@github.com:zouming74/homework.git
 我将使用不同的分支来展示在不同场景下编写cmake是如何使用cmake的。
 [参考教程](https://github.com/stdrc/modern-cmake-by-example)
 
+- split library
+在split_library分支中展示了，如何将一些比较常用的复用次数较多的部分
+设置为split library。并为此修改CMakeLists.txt。
+
 
 
 ## Resources
