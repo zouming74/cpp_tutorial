@@ -33,9 +33,15 @@ git clone git@github.com:zouming74/homework.git
 
 ## CMake
 
+我将使用不同的分支来展示在不同场景下编写cmake是如何使用cmake的。
+[参考教程](https://github.com/stdrc/modern-cmake-by-example)
+
+
 
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
+
+[modern cmake by example](https://github.com/stdrc/modern-cmake-by-example)
 
 ## Maintainers
 [@zouming74](https://github.com/zouming74)
