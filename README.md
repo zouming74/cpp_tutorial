@@ -38,15 +38,12 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 
 - split library  
 
-在split_library分支中展示了如何将一些比较常用的复用次数较多的部分
-设置为split library。并为此修改CMakeLists.txt。
+在split_library分支中展示了如何将一些比较常用的复用次数较多的部分设置为split library。并为此修改CMakeLists.txt。
 
 - subdirectory  
 
-在subdirectory分支中展示了使用更规范的目录来使得工程更加易读。具体的
-内容可以切换到这个分支中学习。  
-这个分支需要我们编写了两个CMakeLists.txt文件，这让整个工程更加
-模块化。  
+在subdirectory分支中展示了使用更规范的目录来使得工程更加易读。具体的内容可以切换到这个分支中学习。  
+这个分支需要我们编写了两个CMakeLists.txt文件，这让整个工程更加模块化。  
 >这是我的个人理解。
 
 
