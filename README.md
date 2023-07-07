@@ -21,7 +21,7 @@
 ## Usage
 你经需要将本仓库克隆到本地。你可以在git bash中输入以下命令。
 ```sh
-git clone git@github.com:zouming74/homework.git
+git clone git@github.com:zouming74/cpp_tutorial.git
 ```
 ## Contributing
 非常欢迎你的加入！[提交一个 Issue](https://github.com/RichardLitt/standard-readme/issues/new) 或者提交一个 Pull Request。
@@ -36,11 +36,13 @@ git clone git@github.com:zouming74/homework.git
 我将使用不同的分支来展示在不同场景下编写cmake是如何使用cmake的。
 [参考教程](https://github.com/stdrc/modern-cmake-by-example)
 
-- split library
+- split library  
+
 在split_library分支中展示了如何将一些比较常用的复用次数较多的部分
 设置为split library。并为此修改CMakeLists.txt。
 
-- subdirectory
+- subdirectory  
+
 在subdirectory分支中展示了使用更规范的目录来使得工程更加易读。具体的
 内容可以切换到这个分支中学习。  
 这个分支需要我们编写了两个CMakeLists.txt文件，这让整个工程更加
