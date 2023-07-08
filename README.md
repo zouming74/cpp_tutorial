@@ -52,6 +52,12 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 
 值得注意的是其中PRIVATE与PUBLIC的使用。这关系到main.cpp能否包含到相应的头文件。
 
+- link libs in same root
+
+在这个分支中，将这个程序更加模块化。在不同的模块部分之间又是可以相互调用的，那么就需要控制接口的PUBLIC和PRIVATE。
+
+>大体上是这样，以后遇到相关的情况直接套用。目前还是能够理解这个程序的意思，虽然有的地方代码有点不会写。学习慢慢来！
+
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
 
