@@ -46,6 +46,11 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 这个分支需要我们编写了两个CMakeLists.txt文件，这让整个工程更加模块化。  
 >这是我的个人理解。
 
+- use libcurl  
+
+在cpp程序中，使用了两个命名空间。第一个是直接返回answer 42，第二个是通过网络请求得到answer 42。由于使用到了第三方，对应的CMakeLists.txt做出了相应的改变。最后，在answer.hpp中选择使用哪个namespace。  
+
+值得注意的是其中PRIVATE与PUBLIC的使用。这关系到main.cpp能否包含到相应的头文件。
 
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
