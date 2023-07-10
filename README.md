@@ -58,6 +58,10 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 
 >大体上是这样，以后遇到相关的情况直接套用。目前还是能够理解这个程序的意思，虽然有的地方代码有点不会写。学习慢慢来！
 
+- cache string  
+
+在这个分支中，我们将一些比较隐秘的东西通过传参数的形式交给程序。
+
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
 
