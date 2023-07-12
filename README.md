@@ -68,7 +68,9 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 这个分支具体的作用不是特别清楚，以后在看过一些书和做过一些项目之后再来看这个。  
 在target compile features 这个改动中，设定了不同的编译目标。
 
+- testing  
 
+这个分支中展示了编写tests，但是需要的测试框架通过github下载。由于国内网速限制，没有实现这个testing。
 
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
