@@ -62,9 +62,13 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 
 在这个分支中，我们将一些比较隐秘的东西通过传参数的形式交给程序。
 
-- interface_library  
+- interface_library 
+    - target compile features
 
-这个分支具体的作用不是特别清楚，以后在看过一些书和做过一些项目之后再来看这个。
+这个分支具体的作用不是特别清楚，以后在看过一些书和做过一些项目之后再来看这个。  
+在target compile features 这个改动中，设定了不同的编译目标。
+
+
 
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
