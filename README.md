@@ -72,6 +72,10 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 
 这个分支中展示了编写tests，但是需要的测试框架通过github下载。由于国内网速限制，没有实现这个testing。
 
+- back to makefile  
+
+通过编写Makefile，让构建过程不用再在命令行中输入cmake命令。更加便捷。
+
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
 
