@@ -8,6 +8,7 @@
 - [Contributing](#contributing)
 - [How to use Makefiles?](#how-to-use-makefiles)
 - [CMake](#cmake)
+- [Pointer](#pointer)
 - [Resources](#resources)
 - [Maintainers](#maintainers)
 - [License](#license)
@@ -23,6 +24,42 @@
 ```sh
 git clone git@github.com:zouming74/cpp_tutorial.git
 ```
+>一下说明针对调试这一过程。
+
+为了更好地使用这个仓库，你需要自己通过vscode生成一些文件。但是为了避免使用太复杂的tasks.json，我将每个子文件夹都设置了相应的tasks.json。所以在使用某个文件夹时，你需要进入相应的文件夹。这样你才能进行调试。这里有一个例子，能够帮到你。
+```sh
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc-11 生成活动文件",
+            "command": "/usr/bin/gcc-11",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/build/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
+
+```
+
+最主要的是修改调试的对象所在的位置。因为我们自己用cmake生成的可执行文件在build文件夹下，所以你需要将默认生成的tasks.json修改一下。
 ## Contributing
 非常欢迎你的加入！[提交一个 Issue](https://github.com/RichardLitt/standard-readme/issues/new) 或者提交一个 Pull Request。
 
@@ -75,6 +112,11 @@ git clone git@github.com:zouming74/cpp_tutorial.git
 - back to makefile  
 
 通过编写Makefile，让构建过程不用再在命令行中输入cmake命令。更加便捷。
+
+## Pointer 
+
+在cpp中最好减少使用复杂的指针，应该多多使用面向对象的思想。这里我是用来回顾指针的。[pointer](./pointer/)
+
 
 ## Resources
 [cpp那些事](https://github.com/Light-City/CPlusPlusThings)
